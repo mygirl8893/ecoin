@@ -76,8 +76,6 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 const char     CRYPTONOTE_NAME[]                             = "ecoin";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001ffffffffffff0f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210186e2dff862ba6076e46548dc22023337b63d0bfbfa474ccbbe00e7e8acd8e58c";
 
-14:11:55.256775 INFO Saving blockchain indices...
-
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
 const uint8_t  BLOCK_MINOR_VERSION_0                         =  0;
@@ -104,7 +102,7 @@ const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT                = 5000;          //
 const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT           = 2000;          // 2 seconds
 const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; // 2 minutes
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
-const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";  // 8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115
+const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";  // 8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
