@@ -147,4 +147,4 @@ endif()
 
 add_subdirectory(external)
 add_subdirectory(src)
-add_subdirectory(tests) // remove w/o test
+add_subdirectory(tests) # remove if w/o test
